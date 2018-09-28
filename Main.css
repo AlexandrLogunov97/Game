@@ -1,0 +1,57 @@
+td.GridItem{
+    background-color: lightgray;
+    width: 80px;
+    height: 80px;
+    align-content: center;
+}
+div.Stock{
+    background-color: lightgray;
+    border: 2px solid black;
+    margin: 10px;
+    height: auto ;
+    text-align: center;
+    align-content: center;
+}
+div.Storage{
+    background-color: lightgray;
+    border: 2px solid rgb(165, 28, 103);
+    margin: 10px;
+    height: auto ;
+    text-align: center;
+    align-content: center;
+}
+div.Player
+{
+    background-color: lightgray;
+    border: 2px solid green;
+    margin: 10px;
+    height: 100%;
+    text-align: center;
+    align-content: center;
+}
+h4.PlayerStats
+{
+    background-color: lightgray;
+    border: 2px solid black;
+    margin: 10px;
+    height: 100%;
+    text-align: center;
+    align-content: center;
+}
+.StartMenu{
+    background-color: lightgray;
+    border: 2px solid black;
+    width: 189px;
+    text-align: center;
+    align-content: center;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+.CenterArea{
+    position: absolute;
+    top: 45%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}

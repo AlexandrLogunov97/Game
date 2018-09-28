@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>Page Title</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" type="text/css" media="screen" href="Main.css" />
+
+    <script src="Game.js"></script>
+</head>
+
+
+<body id='body'>
+        <div id="StartMenu" class="StartMenu">
+                <div style="margin: 10px">
+                    <label for="rows">Count rows:</label><br />
+                    <input id="rows" type="text" value="5"><br />
+                    <label for="cols">Count cols:</label><br />
+                    <input id="cols" type="text" value="5"><br />
+                    <label for="stocks">Count stocks:</label><br />
+                    <input id="stocks" type="text" value="5"><br />
+                    <label for="capacity">Max capacity in stock:</label><br />
+                    <input id="capacity" type="text" value="5"><br />
+                    <label for="maxBag">Max bag:</label><br />
+                    <input id="maxBag" type="text" value="5"><br /><br />
+                    <button id='start' onclick="Start()">Click me</button>
+                </div>
+            </div>
+    <div id="GridContainer" class="CenterArea">
+        <div>
+            <h4 id="bag"></h4>
+        </div>
+        <div>
+            <h4 id="storge"></h4>
+        </div>
+        <div>
+            <table id="grid">
+            </table>
+        </div>
+    </div>
+</body>
+
+</html>
